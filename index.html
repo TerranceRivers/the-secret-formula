@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="TheAlerter">
+        <h2>The alerter</h2>
+        <form id="textForm">
+            <div>
+                <label>Enter Some Text: </label>
+                <input id="userInput" type="text" autocomplete="off" placeholder="Your Text">
+                <button id="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="sandwichBuilder">
+        <h2>The Sandwich Builder</h2>
+        <form id="sandwich-form">
+            <h2>Select your sandwich ingredients:</h2>
+            <input type="checkbox" id="wheat-bread" name="ingredient" value="Wheat Bread">
+            <label for="wheat-bread">Wheat Bread</label><br>
+
+            <input type="checkbox" id="lettuce" name="ingredient" value="Lettuce">
+            <label for="lettuce">Lettuce</label><br>
+
+            <input type="checkbox" id="onion" name="ingredient" value="Onion">
+            <label for="onion">Onion</label><br>
+
+            <input type="checkbox" id="peppers" name="ingredient" value="peppers">
+            <label for="peppers">Peppers</label><br>
+
+            <input type="checkbox" id="tomato" name="ingredient" value="Tomato">
+            <label for="Tomato">Tomato</label><br>
+
+            <input type="checkbox" id="cheese" name="ingredient" value="Cheese">
+            <label for="Cheese">Cheese</label><br>
+
+            <input type="checkbox" id="ham" name="ingredient" value="Ham">
+            <label for="Ham">Ham</label><br>
+
+            <input type="checkbox" id="turkey" name="ingredient" value="Turkey">
+            <label for="Turkey">Turkey</label><br>
+
+            <input type="checkbox" id="bacon" name="ingredient" value="Bacon">
+            <label for="Bacon">Bacon</label><br>
+
+            <input type="checkbox" id="avocado" name="ingredient" value="Avocado">
+            <label for="Avocado">Avocado</label><br>
+
+    
+            <input id="submit-button" type="submit" value="Submit">
+        </form>
+        </div>
+        <div id="haircut-form">
+            <h2>Haircut Scheduling Form</h2>
+            <form>
+              <div>
+                <label for="date-input">Date:</label>
+                <input type="date" id="date-input" name="date">
+              </div>
+              <div>
+                <label for="cutter-input">Hair Cutter:</label>
+                <input type="text" id="cutter-input" name="cutter">
+              </div>
+              <div>
+                <label for="hair-length">Hair Length:</label>
+                <input type="radio" id="short-hair" name="hair-length" value="Short">
+                <label for="short-hair">Short</label>
+                <input type="radio" id="long-hair" name="hair-length" value="Long">
+                <label for="long-hair">Long</label>
+              </div>
+              <button id="submit-button" type="submit">Submit</button>
+            </form>
+          </div>
+          <div id="create-account-form">
+            <h2>Create Account</h2>
+            <form>
+              <div>
+                <label for="username-input">Username:</label>
+                <input type="text" id="username-input" name="username" required>
+              </div>
+              <div>
+                <label for="email-input">Email:</label>
+                <input type="email" id="email-input" name="email" required>
+              </div>
+              <div>
+                <label for="password-input">Password:</label>
+                <input type="password" id="password-input" name="password" required>
+              </div>
+              <div>
+                <label for="confirm-password-input">Confirm Password:</label>
+                <input type="password" id="confirm-password-input" name="confirm-password" required>
+              </div>
+              <button id="submit-button" type="submit">Submit</button>
+            </form>
+          </div>
+          
+    </div>
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
